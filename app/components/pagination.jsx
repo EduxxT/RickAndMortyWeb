@@ -15,9 +15,7 @@ export default function Pagination({ info, page, onPageChange }) {
         Prev
       </button>
 
-      <span className="text-lg font-semibold">
-        Page {page}
-      </span>
+      <span className="text-lg font-semibold">Page {page}</span>
 
       <button
         onClick={() => onPageChange(page + 1)}
